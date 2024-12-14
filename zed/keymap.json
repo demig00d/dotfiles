@@ -1,0 +1,33 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "j k": ["workspace::SendKeystrokes", "escape"]
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "j": ["vim::Left", { "displayLines": true }],
+      "k": ["vim::Down", { "displayLines": true }],
+      "l": ["vim::Up", { "displayLines": true }],
+      ";": ["vim::Right", { "displayLines": true }],
+      "space j": "pane::ActivatePrevItem",
+      "space ;": "pane::ActivateNextItem",
+      "space w": "pane::CloseActiveItem"
+    }
+  }
+]
