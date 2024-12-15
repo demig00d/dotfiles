@@ -8,8 +8,9 @@
     ];
     casks = [ 
       "hammerspoon" 
-      "zed" 
+      "jordanbaird-ice"
       "lulu" 
+      "zed"
     ];
     masApps = {
       "Microsoft Word" = 462054704;

@@ -19,11 +19,12 @@
     # Networking
     aria2           # Download utility
     curl            # Tool for transferring data from or to a server
-    wget            # Network downloader
-    wget2           # Successor of wget
     ngrep           # Network packet analyzer
     nmap            # Network exploration tool and security / port scanner
+    qbittorrent-nox # Version of qBittorrent that only has a WebUI instead of a windowed desktop GUI
     torsocks        # Wrapper for using programs with Tor
+    wget            # Network downloader
+    wget2           # Successor of wget
 
     # File Utilities
     diffutils       # File comparison utilities
