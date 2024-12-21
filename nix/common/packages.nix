@@ -60,18 +60,23 @@
     qpdf            # PDF transformation/inspection software
     imagemagick     # Image manipulation program
     graphicsmagick  # Image processing system
-    mupdf           # Lightweight PDF and XPS viewer
     exiftool        # Read, write and edit file metadata
     gifsicle        # Create, manipulate, and optimize GIF images and animations
 
+    # Languages
+    erlang_27      # Functional programming language
+    gleam          # Statically typed Erlang VM language
+    go             # Compiled programming language
+
     # Other Tools
-    pwgen           # Password generator
-    scrcpy          # Display and control your Android device
     cabextract      # Extract files from Microsoft cabinet files
     cdrtools        # Create and write CD/DVD/Blu-ray media
-    jadx            # Dex to Java decompiler
-    vips            # Image processing library
     gptfdisk        # GPT partitioning tool
+    jadx            # Dex to Java decompiler
+    oh-my-posh      # A prompt theme engine for any shell
+    pwgen           # Password generator
+    scrcpy          # Display and control your Android device
+    vips            # Image processing library
 
     # Other Applications
     dav1d           # AV1 decoder
