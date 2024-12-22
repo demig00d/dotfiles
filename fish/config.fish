@@ -187,3 +187,5 @@ abbr -a -- dcd 'docker compose down'
 # >>> coursier install directory >>>
 set -gx PATH "$PATH:/Users/demigood/Library/Application Support/Coursier/bin"
 # <<< coursier install directory <<<
+
+oh-my-posh init fish --config ~/.config/ohmyposh/mypure.toml | source
