@@ -1,20 +1,25 @@
 { pkgs, ... }:
+
 {
   environment.systemPackages = with pkgs; [
-    neovim          # Text editor
-    kitty           # Terminal emulator
-    tmux            # Terminal multiplexer
     fish            # User-friendly shell
     fzf             # Fuzzy finder
-    
+    # ghostty         # Termainl
+    helix           # Text editor
+    kitty           # Terminal
+    neovim          # Text editor
+    tmux            # Terminal multiplexer
+
     # System Utilities
+    bat             # A cat(1) clone with wings.
     coreutils       # Basic file, shell and text manipulation utilities
+    fd              # A simple, fast and user-friendly alternative to 'find'
     htop            # Interactive process viewer
     ncdu            # Disk usage analyzer
-    fd              # A simple, fast and user-friendly alternative to 'find'
     ripgrep         # Recursively searches directories for a regex pattern
-    tree            # Display directory tree
     stow            # Symlink farm manager
+    tree            # Display directory tree
+    zoxide          # A smarter cd command
 
     # Networking
     aria2           # Download utility

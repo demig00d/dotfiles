@@ -178,14 +178,17 @@ abbr -a -- gwtrm 'git worktree remove'
 abbr -a -- gwtulo 'git worktree unlock'
 abbr -a -- gmr 'git push origin (__git.current_branch) --set-upstream -o merge_request.create'
 abbr -a -- gmwps 'git push origin (__git.current_branch) --set-upstream -o merge_request.create -o merge_request.merge_when_pipeline_succeeds'
+
 abbr -a -- dcl 'docker compose logs'
 abbr -a -- dc 'docker compose'
 abbr -a -- dcu 'docker compose up'
 abbr -a -- dcd 'docker compose down'
 
+abbr -a -- cd 'z'
 
 # >>> coursier install directory >>>
 set -gx PATH "$PATH:/Users/demigood/Library/Application Support/Coursier/bin"
 # <<< coursier install directory <<<
 
+zoxide init fish | source
 oh-my-posh init fish --config ~/.config/ohmyposh/mypure.toml | source
