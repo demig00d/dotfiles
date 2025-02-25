@@ -24,9 +24,9 @@
     NSGlobalDomain.KeyRepeat = 2;
     dock.persistent-apps = [
       "/System/Applications/System Settings.app"
-      "/Applications/Arc.app"
+      "/Applications/Zen Browser.app"
       "${pkgs.obsidian}/Applications/Obsidian.app"
-      "${pkgs.kitty}/Applications/kitty.app"
+      "/Applications/Ghostty.app"
       "/Applications/Zed.app"
     ];
     loginwindow.GuestEnabled = false;

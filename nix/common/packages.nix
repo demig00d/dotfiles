@@ -2,90 +2,97 @@
 
 {
   environment.systemPackages = with pkgs; [
+
+    # Shells & Terminals
     fish            # User-friendly shell
-    fzf             # Fuzzy finder
-    # ghostty         # Termainl
-    helix           # Text editor
-    kitty           # Terminal
-    neovim          # Text editor
     tmux            # Terminal multiplexer
+    # ghostty         # Terminal emulator
+    # kitty           # Terminal emulator
+
+    # Editors & Fuzzy Finder
+    fzf             # Fuzzy finder
+    helix           # Text editor
+    neovim          # Text editor
 
     # System Utilities
     bat             # A cat(1) clone with wings.
     coreutils       # Basic file, shell and text manipulation utilities
-    fd              # A simple, fast and user-friendly alternative to 'find'
+    fd              # Alternative to 'find'
     htop            # Interactive process viewer
     ncdu            # Disk usage analyzer
     ripgrep         # Recursively searches directories for a regex pattern
     stow            # Symlink farm manager
     tree            # Display directory tree
-    zoxide          # A smarter cd command
+    zoxide          # Smarter cd command
+    yt-dlp          # YouTube downloader
+    gdb             # Debugger
 
-    # Networking
+    # Networking Tools
     aria2           # Download utility
     curl            # Tool for transferring data from or to a server
     ngrep           # Network packet analyzer
-    nmap            # Network exploration tool and security / port scanner
-    qbittorrent-nox # Version of qBittorrent that only has a WebUI instead of a windowed desktop GUI
+    nmap            # Network exploration and security scanner
+    qbittorrent-nox # qBittorrent with WebUI only
     torsocks        # Wrapper for using programs with Tor
     wget            # Network downloader
     wget2           # Successor of wget
+    vegeta          # HTTP load testing tool
 
     # File Utilities
     diffutils       # File comparison utilities
     dos2unix        # Convert text files from DOS to Unix format
     pv              # Monitor the progress of data through a pipeline
-    colordiff       # Colorized 'diff' output
-    diff-so-fancy   # Make diffs human readable instead of machine readable
-    delta           # A syntax-highlighting pager for git, diff, and grep output
-    jq              # Lightweight and flexible command-line JSON processor
+    colordiff       # Colorized diff output
+    diff-so-fancy   # Human-readable diffs
+    delta           # Syntax-highlighting pager for diff output
+    jq              # Command-line JSON processor
     superfile       # Faster alternative to file(1)
 
-    # Archiving and Compression
+    # Archiving & Compression
     bzip2           # High-quality data compressor
-    wimlib          # Library and CLI for creating, modifying, extracting, and mounting WIM images
-    lzfse           # LZFSE compression library and command-line tool
+    wimlib          # Tool for working with WIM images
+    lzfse           # LZFSE compression tool
 
     # Development Tools
-    git             # Distributed version control system
-    gitleaks        # Tool for detecting secrets like passwords, API keys, and tokens in git repos
-    cmake           # Cross-platform, open-source build system
-    swig            # Connects C/C++ code with other programming languages
-    bison           # General-purpose parser generator
+    apktool         # Reverse engineering Android APK files
+    bison           # Parser generator
+    cmake           # Cross-platform build system
     flex            # Fast lexical analyzer generator
-    shellcheck      # Static analysis tool for shell scripts
-    nixd            # Nix language server, based on nix libraries
-    tree-sitter     # Parser generator tool and incremental parsing library
-    apktool         # A tool for reverse engineering Android apk files
+    git             # Distributed version control system
+    gitleaks        # Detect secrets in git repos
+    nixd            # Nix language server
+    rebar3          # Official Erlang build tool
+    shellcheck      # Static analysis for shell scripts
+    swig            # Connects C/C++ with other languages
+    tree-sitter     # Parser generator and incremental parser library
+    yarn            # Package manager for JavaScript/TypeScript
 
     # Document Processing
     pandoc          # Universal markup converter
-    plantuml        # Create diagrams from plain text
-    typst           # A new markup-based typesetting system
-    qpdf            # PDF transformation/inspection software
+    plantuml        # Diagram generator from plain text
+    typst           # Markup-based typesetting system
+    qpdf            # PDF transformation/inspection
     imagemagick     # Image manipulation program
     graphicsmagick  # Image processing system
-    exiftool        # Read, write and edit file metadata
-    gifsicle        # Create, manipulate, and optimize GIF images and animations
+    exiftool        # Edit file metadata
+    gifsicle        # Manipulate and optimize GIF images
 
-    # Languages
-    erlang_27      # Functional programming language
-    gleam          # Statically typed Erlang VM language
-    go             # Compiled programming language
+    # Programming Languages
+    gleam           # Statically typed language for the Erlang VM
+    go              # Compiled programming language
 
     # Other Tools
     cabextract      # Extract files from Microsoft cabinet files
     cdrtools        # Create and write CD/DVD/Blu-ray media
     gptfdisk        # GPT partitioning tool
-    jadx            # Dex to Java decompiler
-    oh-my-posh      # A prompt theme engine for any shell
+    oh-my-posh      # Prompt theme engine for any shell
     pwgen           # Password generator
     scrcpy          # Display and control your Android device
     vips            # Image processing library
 
     # Other Applications
-    dav1d           # AV1 decoder
-    ffmpeg          # A complete, cross-platform solution to record, convert and stream audio and video
+    dav1d          # AV1 decoder
+    ffmpeg         # Audio/video conversion and streaming solution
     discord         # Chat, voice, and video client
     obsidian        # Note-taking and knowledge management software
   ];

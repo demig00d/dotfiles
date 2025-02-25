@@ -3,13 +3,16 @@
   homebrew = {
     enable = true;
     brews = [ 
+      "filosottile/musl-cross/musl-cross"
       "mas"
+      "mingw-w64"
       "n"
     ];
     casks = [ 
       "hammerspoon" 
       "jordanbaird-ice"
-      "lulu" 
+      "legcord"
+      "lulu"
       "whisky"
       "zed"
     ];
