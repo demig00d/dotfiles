@@ -7,7 +7,6 @@
     fish            # User-friendly shell
     tmux            # Terminal multiplexer
     # ghostty         # Terminal emulator
-    # kitty           # Terminal emulator
 
     # Editors & Fuzzy Finder
     fzf             # Fuzzy finder
@@ -15,6 +14,7 @@
     neovim          # Text editor
 
     # System Utilities
+    ntfy
     bat             # A cat(1) clone with wings.
     coreutils       # Basic file, shell and text manipulation utilities
     fd              # Alternative to 'find'
@@ -25,7 +25,6 @@
     tree            # Display directory tree
     zoxide          # Smarter cd command
     yt-dlp          # YouTube downloader
-    gdb             # Debugger
 
     # Networking Tools
     aria2           # Download utility
@@ -61,6 +60,7 @@
     git             # Distributed version control system
     gitleaks        # Detect secrets in git repos
     nixd            # Nix language server
+    protobuf        # Protocol Buffers compiler.
     rebar3          # Official Erlang build tool
     shellcheck      # Static analysis for shell scripts
     swig            # Connects C/C++ with other languages
@@ -92,8 +92,9 @@
 
     # Other Applications
     dav1d          # AV1 decoder
+    discord        # Chat, voice, and video client
     ffmpeg         # Audio/video conversion and streaming solution
-    discord         # Chat, voice, and video client
-    obsidian        # Note-taking and knowledge management software
+    materialgram   # Telegram client 
+    obsidian       # Note-taking and knowledge management software
   ];
 }

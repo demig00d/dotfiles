@@ -27,7 +27,6 @@
       "/Applications/Zen Browser.app"
       "${pkgs.obsidian}/Applications/Obsidian.app"
       "/Applications/Ghostty.app"
-      "/Applications/Zed.app"
     ];
     loginwindow.GuestEnabled = false;
     dock.show-recents = false;

@@ -3,18 +3,20 @@
   homebrew = {
     enable = true;
     brews = [ 
+      "cormacrelf/tap/dark-notify"
       "filosottile/musl-cross/musl-cross"
       "mas"
       "mingw-w64"
       "n"
     ];
     casks = [ 
+      "balenaetcher"
+      "dbeaver-community"
+      "floorp"
       "hammerspoon" 
       "jordanbaird-ice"
       "legcord"
       "lulu"
-      "whisky"
-      "zed"
     ];
     masApps = {
       "Microsoft Excel" = 462058435;
