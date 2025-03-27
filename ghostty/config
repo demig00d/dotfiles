@@ -1,0 +1,14 @@
+font-family = Iosevka SS14
+font-size = 15
+# background = 343434
+
+theme = dark:ayu,light:Alabaster
+quit-after-last-window-closed = true
+
+###----------------------------------------
+##   macOS Specific
+# ------------------------------------------
+macos-non-native-fullscreen = false
+macos-option-as-alt     = true
+window-decoration       = false
+
